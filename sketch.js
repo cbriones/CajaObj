@@ -26,7 +26,7 @@ function CajaObj(y){
   }
 
   this.mostrar = function(){
-    fill(map(r, 0, 1, 0, 255), map(r, 0, 1, 0, 255), map(r, 0, 1, 0, 255), map(r, 0, 1, 0, 255));
+    fill(map(random(), 0, 1, 0, 255), map(r, 0, 1, 0, 255), map(r, 0, 1, 0, 255), map(r, 0, 1, 0, 255));
     rect(this.x, this.y, map(r, 0, 1, 1, 7), map(r, 0, 1, 1, 7));
   }
 }
